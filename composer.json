@@ -1,0 +1,20 @@
+{
+    "name": "arnold/flysystem-seaweedfs",
+    "description": "A Flysystem adapter for SeaweedFS",
+    "require": {
+        "league/flysystem": "1.0",
+        "arnold/seaweedfs-client": "1.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SeaweedFS\\Filesystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jiangyong",
+            "email": "jiangyong19910326@163.com"
+        }
+    ]
+}
