@@ -231,7 +231,6 @@ class Seaweed extends AbstractAdapter implements CanOverwriteFiles {
      */
     public function readStream($path) {
         $file = $this->client->get($path);
-        // dd($mapping);
         if(!$file)
         {
             return false;
@@ -338,18 +337,5 @@ class Seaweed extends AbstractAdapter implements CanOverwriteFiles {
         } else {
             return false;
         }
-        // $mapping = $this->mapper->get($path);
-
-        // if (!$mapping) {
-        //     return false;
-        // }
-
-        // try {
-        //     $volume = $this->client->lookup($mapping['fid']);
-
-        //     return $this->client->buildVolumeUrl($volume->getPublicUrl(), $mapping['fid']);
-        // } catch (SeaweedFSException $e) {
-        //     return false;
-        // }
     }
 }
