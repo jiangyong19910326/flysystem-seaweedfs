@@ -2,7 +2,7 @@
     "name": "arnold/flysystem-seaweedfs",
     "description": "A Flysystem adapter for SeaweedFS",
     "require": {
-        "league/flysystem": "1.0",
+        "league/flysystem": "^1.0|^2.0",
         "arnold/seaweedfs-client": "1.0.0"
     },
     "license": "MIT",
