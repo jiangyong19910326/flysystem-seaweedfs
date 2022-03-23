@@ -3,7 +3,7 @@
     "description": "A Flysystem adapter for SeaweedFS",
     "require": {
         "league/flysystem": "^1.0|^2.0",
-        "arnold/seaweedfs-client": "1.0.0"
+        "arnold/seaweedfs-client": "dev-main"
     },
     "license": "MIT",
     "autoload": {
